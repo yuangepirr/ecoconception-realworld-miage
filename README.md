@@ -34,6 +34,8 @@ Les points seront ensuite calculer et une note sera donner en fonction du classe
 
 ## Bonnes pratiques : 
 
+Détails des bonnes pratiques ici : [https://github.com/cnumr/best-practices/tree/main](https://github.com/cnumr/best-practices/tree/main)
+
 |    | Bonnes pratiques                                                                       | Priorité | Mise en oeuvre | Impact écologique | Nombre de points |
 |----|----------------------------------------------------------------------------------------|----------|----------------|-------------------|------------------|
 |  1 | Optimiser le parcours utilisateur                                                      |        5 |              4 |                 5 |             4,67 |
