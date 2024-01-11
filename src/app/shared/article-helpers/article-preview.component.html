@@ -9,17 +9,23 @@
     </app-favorite-button>
   </app-article-meta>
 
-  <a [routerLink]="['/article', article.slug]" class="preview-link">
-    <h1>{{ article.title }}</h1>
-    <p>{{ article.description }}</p>
-    <span>Read more...</span>
-    <ul class="tag-list">
-      <li
-        class="tag-default tag-pill tag-outline"
-        *ngFor="let tag of article.tagList"
-      >
-        {{ tag }}
-      </li>
-    </ul>
-  </a>
+
+    <button (click)="afficherTitre()">afficher titre</button><h1 *ngIf="article.showtitle">{{ article.title }}</h1>
+    <button (click)="afficherDetail()">afficher detail</button>
+    <div *ngIf="article.showdetail">
+      <p>{{ article.description }}</p>
+      <a [routerLink]="['/article', article.slug]" class="preview-link">
+      <span>Read more...</span>
+    </a>
+      <ul class="tag-list">
+        <li
+          class="tag-default tag-pill tag-outline"
+          *ngFor="let tag of article.tagList"
+        >
+          {{ tag }}
+        </li>
+      </ul>
+
+    </div>
+
 </div>
