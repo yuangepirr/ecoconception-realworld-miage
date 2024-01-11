@@ -4,6 +4,11 @@
       <h1 class="logo-font text-police">conduit</h1>
       <p class="paragraphe-police">A place to share your <i>Angular</i> knowledge.</p>
     </div>
+    <div class="image-matrix">
+      <div *ngFor="let image of images" class="matrix-cell">
+        <img [src]="image.src" [alt]="image.alt" class="matrix-image" />
+      </div>
+    </div>
   </div>
 
   <div class="container page">
@@ -11,6 +16,11 @@
       <div class="col-md-9">
         <div class="feed-toggle">
           <ul class="nav nav-pills outline-active">
+            <div class="image-matrix">
+              <div *ngFor="let image of images" class="matrix-cell">
+                <img [src]="image.src" [alt]="image.alt" class="matrix-image" />
+              </div>
+            </div>
             <li class="nav-item">
               <a
                 class="nav-link"
@@ -45,7 +55,11 @@
       <div class="col-md-3" *rxLet="tags$; let tags">
         <div class="sidebar">
           <p>Popular Tags</p>
-
+          <div class="image-matrix">
+            <div *ngFor="let image of images" class="matrix-cell">
+              <img [src]="image.src" [alt]="image.alt" class="matrix-image" />
+            </div>
+          </div>
           <div class="tag-list">
             <a
               *ngFor="let tag of tags"

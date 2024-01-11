@@ -40,7 +40,12 @@ export class HomeComponent implements OnInit, OnDestroy {
     private readonly router: Router,
     private readonly userService: UserService
   ) {}
-
+  images: { src: string; alt: string }[] = [
+    { src: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png', alt: 'Google Logo' },
+    { src: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png', alt: 'Description of image 1' },
+    { src: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png', alt: 'Description of image 2' },
+    // Add more images as needed
+  ];
   ngOnInit(): void {
     this.userService.isAuthenticated
       .pipe(
