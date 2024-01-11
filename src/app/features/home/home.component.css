@@ -21,3 +21,13 @@
     opacity: 0;
   }
 }
+
+.text-police {
+  font-family: 'Helvetica', cursive!important;
+  font-size:72px!important;
+}
+
+.paragraphe-police {
+  font-family: 'Helvetica', cursive!important;
+  font-size:72px!important;
+}
