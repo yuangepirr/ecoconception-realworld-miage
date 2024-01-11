@@ -42,7 +42,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   ) {}
   images: { src: string; alt: string }[] = [
     { src: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png', alt: 'Google Logo' },
-    { src: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png', alt: 'Description of image 1' },
+    { src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT08HbD9T5mXAZyxVIQrrlrHBB0gHdW6IdvgA&usqp=CAU', alt: 'Description of image 1' },
     { src: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png', alt: 'Description of image 2' },
     // Add more images as needed
   ];

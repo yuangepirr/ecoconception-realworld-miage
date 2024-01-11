@@ -7,6 +7,7 @@ import { NgForOf, NgIf } from "@angular/common";
 
 @Component({
   selector: "app-article-preview",
+  styleUrls: ['./article-preview.component.css'],
   templateUrl: "./article-preview.component.html",
   imports: [ArticleMetaComponent, FavoriteButtonComponent, RouterLink, NgForOf, NgIf],
   standalone: true,
