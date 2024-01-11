@@ -22,6 +22,9 @@
     opacity: 0;
   }
 }
+.home-page .banner{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrxtJ-ij_47nFKjKABJOGVfcaCJwHUk31IeA&usqp=CAU);
+}
 
 .text-police {
   background-image: url(https://64.media.tumblr.com/5c04dda9e3bdf9f982112c78b7328f8f/31f7605f27d507ea-56/s540x810/2b58c06be40ed4a94641c4c914fa035ac4047915.gif);
@@ -30,6 +33,11 @@
 }
 
 .paragraphe-police {
+  background-image: url(https://media1.giphy.com/media/326d5iOUoYY8N6uFPm/giphy.gif);
+  background-image: url(https://media1.giphy.com/media/326d5iOUoYY8N6uFPm/giphy.gif);
+  background-image: url(https://media1.giphy.com/media/326d5iOUoYY8N6uFPm/giphy.gif);
+  background-image: url(https://media1.giphy.com/media/326d5iOUoYY8N6uFPm/giphy.gif);
+  background-image: url(https://media1.giphy.com/media/326d5iOUoYY8N6uFPm/giphy.gif);
   background-image: url(https://media1.giphy.com/media/326d5iOUoYY8N6uFPm/giphy.gif);
 
   font-family: 'Helvetica', cursive!important;
